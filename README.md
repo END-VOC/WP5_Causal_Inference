@@ -13,8 +13,8 @@ Paper: Hernan et al., 2022. DOI: 10.1001/jama.2022.21383
 To reduce confounding and other sources of bias impacting data collected outside of randomised controlled trials, Target Trial Emulation (Hernan et al., 2022) maps observational data to a hypothetical target experimental trial by creating the specification of an ideal (pragmatic) trial. Using this mapping as a basis, observational data is then shaped. Target Trial Emulation firstly consists of deining the specification of a hypothetical, ideal experiment of the causal question of interest (including the corresponding causal contrast), secondly emulating the specifications of the ideal target trial using observational data and thirdly, estimating the effects of the interest using the emulated trial data. The first component includes defining inclusion/exclusion criterion on entry, a treatment strategy (including time of assignment and entry), follow-up frequency and modality, outcome measures causal constrasts of interest and the analytical estimation methods for an ideal trial. Using the second component of TTE, observational data is wrangled to emulate the distribution of the data if it were to have been gathered prospectively in ideal trial. Finally, the third component of TTE requires using methods to adjus for known and suspected confounding. 
 
 #### Staggered Cohorts
-Paper: Nguyen at al., 2023: DOI: 10.1093/ije/dyad002
-Link to code: 
+Paper: Nguyen at al., 2023: DOI: 10.1093/ije/dyad002 <br />
+Link to code: https://github.com/END-VOC/WP5_Causal_Inference/tree/main/Target%20Trial%20Emulation%20-%20Staggered%20Cohorts <br />
 Mechanism to estimate causal inference: Reduction of time-varying-confounding-by-indication through stratification and meta-analysis
 
 Staggered cohorts should be used in conjunction with Target Trial Emulation where there are cohort effects. An example of this in COVID is vaccination date itself is a determinant of time-to-infection. E.g. Those vaccinated in December 2021 were at higher risk of SARs-CoV-2 (due to Omicron's immune escape) compared to those who were vaccinated in September 2021 (Delta dominance). 
